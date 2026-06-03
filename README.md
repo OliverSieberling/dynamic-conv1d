@@ -57,5 +57,18 @@ For `lowrank_dynamic_convolution`: `static_w` is fused as an extra rank, so `R+1
 - `test.py`        --    Correctness check (python test.py)
 - `bench.py`       --     Kernel timings (python bench.py)
 
+## Citation
+```bibtex
+@misc{sieberling2026dynamicshortconvolutionsimprove,
+      title={Dynamic Short Convolutions Improve Transformers}, 
+      author={Oliver Sieberling and Bharat Runwal and Rameswar Panda and Yoon Kim},
+      year={2026},
+      eprint={2606.03825},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.03825}, 
+}
+```
 
+## License
 MIT.
